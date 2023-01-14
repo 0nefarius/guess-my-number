@@ -123,9 +123,6 @@ h1 {
 /* ******************************* */
 
 @media (max-width: 67em) {
-  body {
-    background-color: black;
-  }
   .again {
     position: absolute;
     top: 1rem;
@@ -140,10 +137,6 @@ h1 {
 @media (max-width: 46em) {
   header {
     height: 30vh;
-  }
-
-  body {
-    background-color: #333;
   }
 
   h1 {
@@ -183,5 +176,9 @@ h1 {
 
   .message {
     margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
   }
 }
