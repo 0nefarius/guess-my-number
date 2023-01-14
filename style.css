@@ -117,3 +117,59 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* ******************************* */
+/* BELOW 1072px (Tablets) */
+/* ******************************* */
+
+@media (max-width: 67em) {
+  body {
+    background-color: black;
+  }
+  .again {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+  }
+}
+
+/* ******************************* */
+/* BELOW 736px (Smaller Tablets) */
+/* ******************************* */
+
+@media (max-width: 46em) {
+  body {
+    background-color: #333;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .again {
+    padding: 1.5rem 1.5rem;
+    left: 1rem;
+  }
+
+  .between {
+    font-size: 1rem;
+    right: 1rem;
+    top: 3rem;
+  }
+
+  main {
+    margin-top: 8rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .guess {
+    font-size: 4rem;
+    width: 25rem;
+    padding: 2rem;
+  }
+
+  .message {
+    margin-bottom: 2rem;
+  }
+}
