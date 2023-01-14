@@ -136,11 +136,11 @@ h1 {
 
 @media (max-width: 46em) {
   header {
-    height: 30vh;
+    height: 25vh;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .again {
