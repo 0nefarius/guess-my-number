@@ -138,12 +138,16 @@ h1 {
 /* ******************************* */
 
 @media (max-width: 46em) {
+  header {
+    height: 30vh;
+  }
+
   body {
     background-color: #333;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .again {
@@ -157,10 +161,18 @@ h1 {
     top: 3rem;
   }
 
+  .number {
+    font-size: 6rem;
+    padding: 2rem 0rem;
+    width: 12rem;
+  }
+
   main {
-    margin-top: 8rem;
+    margin-top: 4rem;
     flex-direction: column;
     text-align: center;
+    height: 65vh;
+    justify-content: space-around;
   }
 
   .guess {
