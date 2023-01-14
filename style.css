@@ -172,7 +172,7 @@ h1 {
     flex-direction: column;
     text-align: center;
     height: 65vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .guess {
